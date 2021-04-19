@@ -1,0 +1,96 @@
+.for-slick-slider{
+    display: flex;
+}
+.for-slick-slider .items{
+    width: 350px ;
+    height: 250px;
+    margin: 50px;
+}
+.for-slick-slider .items .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height:250px;
+}
+.for-slick-slider  .slick-center .overlay{
+    opacity:0;
+}
+.for-slick-slider .items img{
+    width: 350px;
+    height: 250px;
+    transition: all linear 0.4s;
+    position: relative;
+    padding: 0 50px;
+}
+.for-slick-slider .slick-center img{
+    transform: scale(1.6);
+}
+.arrow-button{
+    position:relative;
+}
+:focus{
+    outline:none;
+}
+.prev-arrow{
+    position:absolute;
+    top: -200px;
+    left: 0px;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color:blue;
+    border-color: blue;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60%;
+}
+.next-arrow{
+    position:absolute;
+    top: -200px;
+    right: 0px;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color:blue;
+    border-color: blue;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60%;
+}
+ul.slick-dots {
+    position: absolute;
+    top: 118%;
+    left: 50%;
+    display: flex;
+    padding: 0 15px;
+    margin: 0;
+    list-style: none;
+    border-radius: 50%;
+}
+ul.slick-dots  li{
+    margin: 10px;
+    
+    color: white;
+    background-color:black;
+    border-radius: 50%;
+}
+ul.slick-dots li button{
+    color: white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    line-height: 40%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+ul.slick-dots li.slick-active{
+    color: red;
+    background-color: white;
+}
+ul.slick-dots li.slick-active{
+    color: red;
+    background-color: white;
+}
